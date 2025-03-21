@@ -1,0 +1,37 @@
+*{
+    /* border: 2px solid red; */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px ;
+}
+
+.container img{
+    width: 40%;
+    height: auto;
+}
+
+.text_container h1{
+    font-size: 96px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+.text_container button{
+    width: 40%;
+    height: 44px;
+    margin-left: 60%;
+    background: #000;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 550;
+}
+
